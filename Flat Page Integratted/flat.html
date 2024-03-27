@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="flat.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHotelPage">
+        <div class="hotel-container-tittle d-flex flex-column justify-content-end">
+            <div class="hotel-card-container text-center">
+                <h1 class="hotel-card-hd">Sunrise Avenue</h1>
+                <p class="hotel-card-pg">Move to what moves you</p>
+                <button class="btn btn-warning text-white" onclick="display('sectionRoomPreview')">Book Flat</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionRoomPreview">
+        <div class="hotel-room-container p-3">
+            <h1 class="hotel-card-hd"> Sunrise Avenue</h1>
+            <div class="hotel-room-tittle d-flex flex-row justify-content-start mb-2" onclick="display('sectionRoomThree')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="hotel-room-tittle-image" />
+                <div class="p-2">
+                    <h1 class="hotel-room-tittle-hd"> 3BHK Flat </h1>
+                    <p class="hotel-room-tittle-pg">This is fully furnished house with
+                        handmade furniture including a luxury
+                        en-suite facilities pack. Its built-up area
+                        is about 1600sq.ft. A spacious home for
+                        you to live in!!..</p>
+                </div>
+            </div>
+            <div class="hotel-room-tittle d-flex flex-row justify-content-start mb-2" onclick="display('sectionRoomTwo')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="hotel-room-tittle-image" />
+                <div class="p-2">
+                    <h1 class="hotel-room-tittle-hd"> 2BHK Flat </h1>
+                    <p class="hotel-room-tittle-pg">A minimalist house made for modern
+                        day families. It is fully furnished with trending
+                        furniture.its built up area is 1200sq.ft!!..</p>
+                </div>
+            </div>
+            <div class="hotel-room-tittle d-flex flex-row justify-content-start mb-2" onclick="display('sectionRoomFour')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="hotel-room-tittle-image" />
+                <div class="p-2">
+                    <h1 class="hotel-room-tittle-hd"> 4BHK Flat </h1>
+                    <p class="hotel-room-tittle-pg">A contemprary home with more
+                        color and vibrancy. it is fully furnished with elegant furniture. Its built-up area
+                        3600sq.ft!!..</p>
+                </div>
+            </div>
+            <button class="btn btn-warning text-white" onclick="display('sectionHotelPage')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionRoomThree">
+        <div class="hotel-room-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="room-view-image" />
+            <div class="p-3">
+                <h1 class="hotel-card-hd">Rs. 3000/-</h1>
+                <div class="pt-3 d-flex flex-row justify-content-start">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="loc-view-image" />
+                    <div class="pl-3 pt-1">
+                        <h1 class="view-pg">D/N 5-2,Food Street,Indore</h1>
+                    </div>
+                </div>
+                <hr class="line pt-2" />
+                <h1 class="hotel-card-hd pt-3 pb-1">Description</h1>
+                <p class="view-pg">This is fully furnished house with
+                    handmade furniture including a luxury
+                    en-suite facilities pack. Its built-up area
+                    is about 1600sq.ft. A spacious home for
+                    you to live in!!..</p>
+                <div class="text-center pt-3">
+                    <button class="btn btn-warning text-white mr-3">Confirm</button>
+                    <button class="btn btn-warning text-white" onclick="display('sectionRoomPreview')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionRoomTwo">
+        <div class="hotel-room-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="room-view-image" />
+            <div class="p-3">
+                <h1 class="hotel-card-hd">Rs. 2000/-</h1>
+                <div class="pt-3 d-flex flex-row justify-content-start">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="loc-view-image" />
+                    <div class="pl-3 pt-1">
+                        <h1 class="view-pg">D/N 5-2,Food Street,Indore</h1>
+                    </div>
+                </div>
+                <hr class="line pt-2" />
+                <h1 class="hotel-card-hd pt-3 pb-1">Description</h1>
+                <p class="view-pg">A minimalist house made for modern
+                    day families. It is fully furnished with trending
+                    furniture.its built up area is 1200sq.ft.</p>
+                <div class="text-center pt-3">
+                    <button class="btn btn-warning text-white mr-3">Confirm</button>
+                    <button class="btn btn-warning text-white" onclick="display('sectionRoomPreview')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionRoomFour">
+        <div class="hotel-room-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="room-view-image" />
+            <div class="p-3">
+                <h1 class="hotel-card-hd">Rs. 4000/-</h1>
+                <div class="pt-3 d-flex flex-row justify-content-start">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="loc-view-image" />
+                    <div class="pl-3 pt-1">
+                        <h1 class="view-pg">D/N 5-2,Food Street,Indore</h1>
+                    </div>
+                </div>
+                <hr class="line pt-2" />
+                <h1 class="hotel-card-hd pt-3 pb-1">Description</h1>
+                <p class="view-pg">A contemprary home with more
+                    color and vibrancy. it is fully furnished with elegant furniture. Its built-up area
+                    3600sq.ft.</p>
+                <div class="text-center pt-3">
+                    <button class="btn btn-warning text-white mr-3">Confirm</button>
+                    <button class="btn btn-warning text-white" onclick="display('sectionRoomPreview')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

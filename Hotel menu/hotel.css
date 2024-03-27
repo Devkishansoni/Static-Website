@@ -1,0 +1,48 @@
+.hotel-background-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 12px;
+}
+
+.hotel-bottom-container {
+    background-color: #000000e6;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 2px;
+}
+
+.bottom-heading {
+    font-family: "bree serif";
+    font-size: 25px;
+    color: white;
+    font-weight: normal;
+}
+
+.bottom-description {
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: normal;
+    color: white;
+}
+
+.hotel-rent {
+    font-family: "bree serif";
+    font-size: 20px;
+    color: white;
+}
+
+.top-container-button {
+    border-radius: 9px;
+    width: 100px;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: normal;
+    height: 35px;
+    border-width: 0px;
+    color: #000000e6;
+    padding: 3px;
+    margin: 7px;
+    border-color: #000000e6;
+    background-color: white;
+}

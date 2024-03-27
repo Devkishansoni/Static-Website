@@ -1,0 +1,77 @@
+.bg-container {
+    background-color: #875fc0;
+    background-size: cover;
+    height: 150vh;
+    margin: 5px;
+}
+
+.bg-hd {
+    color: #ffffff;
+    padding: 5px;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-top-section {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 9px;
+}
+
+.top-hd {
+    font-family: Roboto;
+    font-size: 25px;
+    padding: 5px;
+    color: #1f2933;
+    font-weight: bold;
+}
+
+.top-pg {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #323f4b;
+}
+
+.top-section-img {
+    width: 205px;
+    height: 115px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bottom-section-card {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 9px;
+    padding: 35px;
+}
+
+.option-list {
+    text-align: center;
+    list-style-type: none;
+    text-align: left;
+    padding: 5px;
+}
+
+
+.option {
+    color: #323f4b;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #3234fb;
+    background-color: #fffffff;
+    padding: 7px;
+    margin: 12px;
+}
+
+.correct-option {
+    background-color: #875fc0;
+}

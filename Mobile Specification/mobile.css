@@ -1,0 +1,32 @@
+.mobile-top-container {
+    height: 33vh;
+    width: 100vw;
+}
+
+.mobile-bottom-container {
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #0a1f44;
+    padding: 15px;
+}
+
+.mobile-bottom-container-hd {
+    font-family: Roboto;
+    font-size: 25px;
+    color: 0a1f44;
+    font-weight: bold;
+}
+
+.unorder-list {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px;
+    list-style-type: disc;
+    color: #707070;
+}
+
+.button-center {
+    text-align: center;
+}

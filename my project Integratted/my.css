@@ -1,0 +1,192 @@
+
+.top-container {
+    background-color: white;
+    padding: 16px;
+}
+
+.html-image {
+    height: 165px;
+    border-radius: 40px;
+}
+
+.html-hd {
+    font-family: "Bree serif";
+    font-size: 23px;
+    color: #183b56;
+    font-weight: 550;
+}
+
+.html-pg {
+    font-family: "Bree serif";
+    font-size: 11px;
+    color: #616e7c;
+}
+
+.projects-image {
+    width: 156px;
+}
+
+.tech-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.tech-card-container {
+    background-color: white;
+    padding: 14px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.tech-card-heading {
+    font-family: "bree serif";
+    font-size: 28px;
+    font-weight: 500;
+    color: #5752ab;
+}
+
+.tech-card-description {
+    font-family: "Roboto";
+    font-size: 14px;
+    border-width: 9px;
+    color: #323f4b;
+    font-weight: normal;
+}
+
+.button-white {
+    background-color: #ffffff;
+    color: #171f4b;
+}
+
+.button-voilet {
+    background-color: #5752ab;
+    color: #ffffff;
+}
+
+.button {
+    font-family: "Roboto";
+    font-size: 12px;
+    border-color: #d7dfe9;
+    border-radius: 8px;
+    height: 39px;
+    width: 110px;
+    padding: 7px;
+    margin: 5px;
+}
+
+
+
+.top-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    background-size: cover;
+    height: 30vh;
+}
+
+.top-section-tittle {
+    font-family: "Caveat";
+    font-size: 27px;
+    color: white;
+    width: 150px;
+    padding: 15px;
+}
+
+.bottom-section {
+    background-color: #e6f6ff;
+    padding: 15px;
+}
+
+.card-item {
+    background-color: white;
+    width: 120px;
+    text-align: center;
+    border-radius: 13px;
+    padding: 15px;
+    margin: 12px;
+}
+
+.card-item-image {
+    height: 65px;
+    width: 55px;
+}
+
+.card-item-tittle {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: grey;
+}
+
+.card-item-price {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.bg-container-9 {
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+    margin: 7px;
+}
+
+.card-container-9 {
+    background-color: #ffffff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 13px;
+    height: 30vh;
+}
+
+.hd-9 {
+    font-weight: bold;
+    font-family: Roboto;
+    color: #323f4b;
+    font-size: 15px;
+}
+
+.pg-9 {
+    color: #7b8794;
+    font-size: 12px;
+}
+
+.pg-8 {
+    color: #7b8794;
+    font-size: 8px;
+}
+
+.btn-9 {
+    background-color: #323f4b;
+    color: #ffffff;
+    padding: 4px;
+}
+
+.@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-heading-7 {
+    font-family: "bree serif";
+    font-size: 23px;
+    color: black;
+}
+
+.bg-7 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.pg-7 {
+    font-family: "bree serif";
+    font-size: 13px;
+    color: grey;
+}
+
+.card-7 {
+    background-color: #f6c56e;
+    text-align: left;
+    color: #323f4b;
+    border-top-left-radius: 25px;
+    padding: 13px;
+    border-top-right-radius: 25px;
+}

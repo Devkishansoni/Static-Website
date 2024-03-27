@@ -1,0 +1,55 @@
+.Empower-container {
+    background-color: #225db0;
+    height: 100vh;
+    padding: 12px;
+}
+
+.Empower-hd {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: white;
+}
+
+.Empower-pg {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: white;
+}
+
+.bottom-card {
+    background-color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    height: 95%;
+    width: 150%;
+    padding: 12px;
+}
+
+.card-tittle {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+    color: #1f2933;
+}
+
+.card-image {
+    height: 47px;
+    padding-bottom: 7px;
+}
+
+.detailed-container {
+    background-color: #225db0;
+    height: 100vh;
+    padding: 17px;
+}
+
+.button {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: "Roboto";
+    font-size: 12px;
+    color: white;
+}

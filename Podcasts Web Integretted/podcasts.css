@@ -1,0 +1,81 @@
+.podcasts-top-bg {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png');
+    height: 33vh;
+    background-size: cover;
+}
+
+.podcasts-top-bg-hd {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    padding: 15px;
+}
+
+.podcasts-bottom-bg {
+    background-color: white;
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+}
+
+.podcasts-bottom-bg-img {
+    height: 110px;
+    width: 140px;
+}
+
+.podcasts-bottom-bg-hd {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 550;
+    color: #151765;
+    padding-top: 5px;
+}
+
+.podcasts-bottom-bg-pg {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5a7184;
+}
+
+
+.podcasts-detailes-bottom-pg {
+    height: 100vh;
+    background-color: white;
+    padding
+}
+
+.postcasta-detailes-bg {
+    background-color: #151765;
+    height: 33vh;
+    padding: 25px;
+}
+
+.postcasta-detailes-bg-pg {
+    font-family: Roboto;
+    font-size: 11px;
+    padding-left: 6px;
+    color: #5a7184;
+}
+
+.postcasta-detailes-bg-hd {
+    font-family: Roboto;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+.podcasts-button {
+    height: 27px;
+    width: 80px;
+    border-radius: 9px;
+    border-width: 0px;
+    background-color: #151765;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 12px;
+    padding: 3px;
+}

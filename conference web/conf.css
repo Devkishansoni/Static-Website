@@ -1,0 +1,22 @@
+.home-bottom {
+    background-color: white;
+}
+
+.home-top-image {
+    height: 50vh;
+    width: 100%;
+}
+
+.home-bottom-hd {
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 600;
+    color: #183b56;
+}
+
+.home-bottom-pg {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: normal;
+    color: #5a7184;
+}

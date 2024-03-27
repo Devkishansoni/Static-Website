@@ -1,0 +1,63 @@
+.top-section {
+    background-color: #fb4e71;
+    padding: 12px;
+    height: 30vh;
+}
+
+.top-section-hd {
+    font-family: Roboto;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.top-section-pg {
+    font-family: Roboto;
+    font-size: 12px;
+    color: white;
+}
+
+.bottom-section {
+    background-color: #e6f6ff;
+    padding: 15px;
+}
+
+.bottom-section-hd {
+    font-size: 15px;
+    font-family: Roboto;
+    color: #323f4b;
+    font-weight: bold;
+}
+
+.bottom-section-card {
+    background-color: #ffffff;
+    border-radius: 9px;
+}
+
+.bottom-section-sub-hd {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    color: #323f4b;
+}
+
+.bottom-section-sub-pg {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #888888;
+}
+
+.bottom-section-sub-img {
+    height: 120px;
+}
+
+.pg-bottom {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    color: #323f4b;
+}
+
+.button {
+    text-align: center;
+}

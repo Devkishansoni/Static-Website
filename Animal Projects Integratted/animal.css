@@ -1,0 +1,57 @@
+.bg {
+    background-color: black;
+    height: 100vh;
+    padding: 17px;
+}
+
+.hd {
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+.image {
+    height: 123px;
+    width: 118px;
+}
+
+.bg1 {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/animals-turtle-bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 18px;
+}
+
+.bg2 {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/animals-raccoon-bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 18px;
+}
+
+.bg3 {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/animals-kangaroo-bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 18px;
+}
+
+.bg4 {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/animals-lion-bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 18px;
+}
+
+.pg {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+}
+
+.pg1 {
+    font-family: "Roboto";
+    font-size: 19px;
+    color: white;
+}
